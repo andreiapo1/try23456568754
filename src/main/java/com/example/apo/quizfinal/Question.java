@@ -99,7 +99,7 @@ public class Question extends Fragment {
             {
                 AlertDialog alertDialog = new AlertDialog.Builder(view.getContext()).create();
                 alertDialog.setTitle("Cheated");
-                alertDialog.setMessage(answertext);
+                alertDialog.setMessage("The correct answer is " + answertext);
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {

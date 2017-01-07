@@ -26,8 +26,8 @@ public class Questions extends FragmentActivity implements Question.Communicatio
 
     boolean cheated = false;
 
-    String[] questions = {"What is 0+1?", "What is 1+1?", "What is 2+1?", "What is 2+2?"};
-    final String[] answers = {"1", "2", "3", "4"};
+    String[] questions = {"What is 0+1?", "What is 1+1?", "What is 2+1?", "What is 2+2?", "What is 7+1?", "What is 4+1?", "What is 8+1?"};
+    final String[] answers = {"1", "2", "3", "4", "8", "5", "9"};
     final List<Integer> questionsids=new ArrayList<Integer>();
     User user=null;
 
@@ -62,6 +62,9 @@ public class Questions extends FragmentActivity implements Question.Communicatio
         questionsids.add(2);
         questionsids.add(3);
         questionsids.add(4);
+        questionsids.add(5);
+        questionsids.add(6);
+        questionsids.add(7);
 
         changeQuestionById(2);
 
